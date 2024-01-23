@@ -1,0 +1,41 @@
+body {
+   background-image: url(../images/Background.jpg);
+   background-size: 100%;
+   background-repeat: repeat-y;
+}
+h1 {
+   font-size: 35px;
+}
+h1,
+h2,
+h3 {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(20, 58, 85);
+}
+/*wanted to have a transparent colored background over the original background
+ for easy read texts of product discription*/
+.products {
+   background-color: rgba(228, 210, 189, 0.773);
+}
+/* to put three products in line*/
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 1rem;
+}
+.contact {
+   color: rgb(221, 114, 104);
+}
+/*aside is a Subscription info. Add link later. 
+Make this area a bit apart from main,so I sat a smallar frame than other area */
+aside {
+   background-color: rgb(20, 58, 85);
+   color: azure;
+   height: 100px;
+   width: 800px;
+}
+
+footer {
+   background-color: rgb(221, 114, 104);
+   color: azure;
+}
